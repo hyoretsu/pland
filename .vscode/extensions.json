@@ -1,0 +1,14 @@
+{
+	"recommendations": [
+		"biomejs.biome",
+		"dbaeumer.vscode-eslint",
+		"EditorConfig.EditorConfig",
+		"maptz.camelcasenavigation",
+		"naumovs.color-highlight",
+		"oven.bun-vscode",
+		"Prisma.prisma",
+		"rust-lang.rust-analyzer",
+		"tamasfe.even-better-toml",
+		"tauri-apps.tauri-vscode"
+	]
+}

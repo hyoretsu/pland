@@ -1,0 +1,26 @@
+{
+	"[css][graphql][javascript][javascriptreact][json][jsonc][typescript][typescriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.biome": "always",
+			"source.organizeImports.biome": "always"
+		},
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascript][javascriptreact][typescript][typescriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "always"
+		}
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"[toml]": {
+		"editor.defaultFormatter": "tamasfe.even-better-toml"
+	},
+	"editor.formatOnSave": true,
+	"explorer.sortOrderLexicographicOptions": "upper",
+	"files.insertFinalNewline": true,
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.preferences.preferTypeOnlyAutoImports": true,
+	"typescript.tsdk": "node_modules/typescript/lib"
+}
