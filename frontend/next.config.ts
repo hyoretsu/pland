@@ -21,6 +21,8 @@ type NextConfigFunction = (
   },
 ) => Promise<NextConfig> | NextConfig;
 
+const internalHost = process.env.TAURI_DEV_HOST || process.env.NEXT_PUBLIC_APP_URL || "localhost";
+
 const configFn: NextConfigFunction = async (phase, { defaultConfig }) => {
   const baseConf: NextConfig = {
     eslint: {
@@ -28,6 +30,9 @@ const configFn: NextConfigFunction = async (phase, { defaultConfig }) => {
     },
     experimental: {
       optimizePackageImports: ["@mantine/core", "@mantine/hooks"],
+    },
+    images: {
+      unoptimized: true,
     },
     output: "export",
     productionBrowserSourceMaps: true,
@@ -37,7 +42,8 @@ const configFn: NextConfigFunction = async (phase, { defaultConfig }) => {
 
   if (phase === PHASE_DEVELOPMENT_SERVER) {
     // Dev-specific settings
-    baseConf.assetPrefix = `http://${process.env.TAURI_DEV_HOST || "localhost"}:3000`;
+    baseConf.allowedDevOrigins = [internalHost];
+    baseConf.assetPrefix = `http://${internalHost}:3000`;
   }
 
   return baseConf;

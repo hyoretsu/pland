@@ -1,3 +1,4 @@
+/** biome-ignore-all assist/source/useSortedKeys: logical sorting instead of alphabetic */
 module.exports = {
 	plugins: {
 		"postcss-preset-mantine": {},

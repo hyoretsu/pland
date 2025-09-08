@@ -2,7 +2,7 @@
 	"lang": "en-US",
 	"types": {
 		"build": false,
-		"bump": "Package updates.",
+		"bump": "Bump. A lot of nothings or very minor changes.",
 		"change": "Simple changes that don't amount to a feature.",
 		"perf": false
 	},

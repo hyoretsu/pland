@@ -1,12 +1,13 @@
 {
 	"recommendations": [
+		"EditorConfig.EditorConfig",
+		"Prisma.prisma",
 		"biomejs.biome",
 		"dbaeumer.vscode-eslint",
-		"EditorConfig.EditorConfig",
+		"lokalise.i18n-ally",
 		"maptz.camelcasenavigation",
 		"naumovs.color-highlight",
 		"oven.bun-vscode",
-		"Prisma.prisma",
 		"rust-lang.rust-analyzer",
 		"tamasfe.even-better-toml",
 		"tauri-apps.tauri-vscode"

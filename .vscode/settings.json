@@ -20,6 +20,7 @@
 	"editor.formatOnSave": true,
 	"explorer.sortOrderLexicographicOptions": "upper",
 	"files.insertFinalNewline": true,
+	"i18n-ally.localesPaths": ["src/i18n"],
 	"typescript.enablePromptUseWorkspaceTsdk": true,
 	"typescript.preferences.preferTypeOnlyAutoImports": true,
 	"typescript.tsdk": "node_modules/typescript/lib"
