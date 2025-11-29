@@ -3,13 +3,18 @@ node_modules/
 tmp/
 !.gitkeep
 
+# Build directories
+build
+dist
+dist-ssr
+out
+
 # Env files
 .env
 .env*.local
 
 # Next.js
 .next/
-out/
 
 # Package managers
 # bun.lockb

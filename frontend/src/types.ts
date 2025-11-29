@@ -1,7 +1,0 @@
-export enum DisciplineCategory {
-  OBRIGATORIA = 0,
-  COMPLEMENTAR_OBRIGATORIA = 1,
-  COMPLEMENTAR_FLEXIVEL = 2,
-  OPTATIVA = 3,
-  EXTRACURRICULAR = 4,
-}

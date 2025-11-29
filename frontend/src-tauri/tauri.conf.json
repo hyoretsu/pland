@@ -15,8 +15,8 @@
 	"build": {
 		"beforeBuildCommand": "bun run build",
 		"beforeDevCommand": "bun run dev",
-		"devUrl": "http://localhost:3000",
-		"frontendDist": "../out"
+		"devUrl": "http://localhost:5173",
+		"frontendDist": "../dist"
 	},
 	"bundle": {
 		"active": true,
